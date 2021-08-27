@@ -63,7 +63,7 @@ def match():
         print("Wrong response!!!")
 
 def end_credits():
-    thanks = 'Thanks For Playing !!'
+    thanks = 'Thanks For Playing !!'   # slight change to make it animation-like
     thanks.upper()
     for i in thanks:
         print(i, end= " ")
